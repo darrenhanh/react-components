@@ -2,7 +2,7 @@ import React, { Component, PropTypes, cloneElement } from 'react';
 import ReactDOM from 'react-dom';
 import styles from '../styles/style.less';
 
-class App extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
 
@@ -31,4 +31,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default Home;

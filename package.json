@@ -3,7 +3,7 @@
   "description": "react-components",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/darrenhanh/react-components.git"
   },
   "scripts": {
     "watch": "set NODE_ENV=development & node server.js"
