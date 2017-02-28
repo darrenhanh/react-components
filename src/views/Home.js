@@ -1,6 +1,6 @@
 import React, { Component, PropTypes, cloneElement } from 'react';
 import ReactDOM from 'react-dom';
-import styles from '../css/style.less';
+import styles from '../styles/style.less';
 
 class App extends Component {
   constructor(props) {
