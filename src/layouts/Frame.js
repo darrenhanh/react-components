@@ -3,15 +3,16 @@
  */
 import React from 'react';
 import Nav from './Nav';
+import styles from '../styles/style.less';
 
 class Frame extends React.Component {
     render() {
         return (
-            <div className="frame">
-                <div className="header">
+            <div className={styles.frame}>
+                <div className={styles.header}>
                     <Nav />
                 </div>
-                <div className="container">
+                <div className={styles.container}>
                     {this.props.children}
                 </div>
             </div>
